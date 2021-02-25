@@ -1,0 +1,1 @@
+SELECT * from (SELECT NAME, count(ANIMAL_ID) as count from ANIMAL_INS where NAME IS NOT NULL group by NAME) as _ where count > 1 order by NAME ASC

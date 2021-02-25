@@ -1,0 +1,1 @@
+SELECT HOUR,count(HOUR) from (SELECT HOUR(DATETIME) as HOUR from ANIMAL_OUTS) as _ where HOUR>=9 and HOUR<=19 group by HOUR order by HOUR ASC
