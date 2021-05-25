@@ -1,10 +1,10 @@
-function solution(s) {
-    var answer = 0;
+//function solution(s) {
+//    var answer = 0;
     
-    answer= Number(s);		//parseInt(s)ë‚˜ s/1, s*1 ë“±ë„ ê°€ëŠ¥í•˜ë‹¤.
+//    answer= Number(s);		//parseInt(s)³ª s/1, s*1 µîµµ °¡´ÉÇÏ´Ù.
     
-    return answer;
-}
+//    return answer;
+//}
 
-// https://programmers.co.kr/learn/courses/30/lessons/12925?language=javascript
-// ë¬¸ìì—´ ì •ìˆ˜ ë³€í™˜
+//// https://programmers.co.kr/learn/courses/30/lessons/12925?language=javascript
+//// ¹®ÀÚ¿­ Á¤¼ö º¯È¯

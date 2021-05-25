@@ -1,16 +1,16 @@
-function solution(seoul) {
-	var answer = 'ê¹€ì„œë°©ì€ ';
+//function solution(seoul) {
+//	var answer = '±è¼­¹æÀº ';
 
-	for (var i = 0;i < seoul.length;i++)
-	{
-		if (seoul[i] === 'Kim')
-		{
-			answer += (i + 'ì— ìˆë‹¤');
-		}
-	}
+//	for (var i = 0;i < seoul.length;i++)
+//	{
+//		if (seoul[i] === 'Kim')
+//		{
+//			answer += (i + '¿¡ ÀÖ´Ù');
+//		}
+//	}
 
-	return answer;
-}
+//	return answer;
+//}
 
-// https://programmers.co.kr/learn/courses/30/lessons/12919?language=javascript
-// ë¬¸ìì—´ 'Kim'ì˜ ìœ„ì¹˜ ì°¾ê¸°
+//// https://programmers.co.kr/learn/courses/30/lessons/12919?language=javascript
+//// ¹®ÀÚ¿­ 'Kim'ÀÇ À§Ä¡ Ã£±â

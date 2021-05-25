@@ -1,13 +1,13 @@
-function solution(n) {
-    var answer = 0;
+//function solution(n) {
+//    var answer = 0;
 
-    for (var i = 1; i <= n; i++) {
-        if (n % i === 0)
-            answer += i;
-    }
+//    for (var i = 1; i <= n; i++) {
+//        if (n % i === 0)
+//            answer += i;
+//    }
 
-    return answer;
-}
+//    return answer;
+//}
 
-// https://programmers.co.kr/learn/courses/30/lessons/12928?language=javascript
-// ë°˜ë³µë¬¸ í™œìš©í•´ì„œ ì•½ìˆ˜ë¥¼ êµ¬í•˜ëŠ” ë¬¸ì œ
+//// https://programmers.co.kr/learn/courses/30/lessons/12928?language=javascript
+//// ¹Ýº¹¹® È°¿ëÇØ¼­ ¾à¼ö¸¦ ±¸ÇÏ´Â ¹®Á¦

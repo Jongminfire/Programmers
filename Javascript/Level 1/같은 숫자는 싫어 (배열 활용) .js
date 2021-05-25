@@ -1,14 +1,14 @@
-function solution(arr) {
-    var answer = [];
+//function solution(arr) {
+//    var answer = [];
 
-    for (var i = 0; i < arr.length; i++) {
-        if (arr[i] !== arr[i + 1]) {
-            answer.push(arr[i]);
-        }
-    }
+//    for (var i = 0; i < arr.length; i++) {
+//        if (arr[i] !== arr[i + 1]) {
+//            answer.push(arr[i]);
+//        }
+//    }
 
-    return answer;
-}
+//    return answer;
+//}
 
-// https://programmers.co.kr/learn/courses/30/lessons/12906?language=javascript
-// ë°°ì—´ í™œìš©í•´ì„œ ë‹¤ìŒì— ì˜¤ëŠ” ê°’ ë¹„êµí•˜ëŠ” ë¬¸ì œ
+//// https://programmers.co.kr/learn/courses/30/lessons/12906?language=javascript
+//// ¹è¿­ È°¿ëÇØ¼­ ´ÙÀ½¿¡ ¿À´Â °ª ºñ±³ÇÏ´Â ¹®Á¦

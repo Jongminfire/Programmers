@@ -1,18 +1,19 @@
-function solution(participant, completion) {
-    var answer = '';
+//function solution(d, budget) {
+//    var answer = 0;
 
-    participant.sort();
-    completion.sort();
+//    d.sort(function (a, b) {    // d.sort() °¡ Á¤·ÄÀÌ ¾ÈµÇ´Â ÀÌÀ¯´Â ASCII °ª ±âÁØÀ¸·Î Á¤·ÄÇÏ±â ¶§¹®.
+//        return a - b;           // ¿À¸§Â÷¼øÀº return a-b; ³»¸²Â÷¼øÀº return b-a;
+//    });
 
-    for (var i = 0; i < participant.length; i++) {
-        if (participant[i] !== completion[i]) {
-            answer = participant[i];
-            return answer;
-        }
-    }
+//    for (let i = 0; i < d.length; i++) {
+//        if (budget >= d[i]) {
+//            budget -= d[i];
+//            answer++;
+//        }
+//    }
 
-    return answer;
-}
+//    return answer;
+//}
 
-// https://programmers.co.kr/learn/courses/30/lessons/42576?language=javascript
-// ì •ë ¬ í›„ ë‹¤ë¥¸ ê°’ ì°¾ê¸°
+//// https://programmers.co.kr/learn/courses/30/lessons/12982?language=javascript
+//// ¿À¸§Â÷¼øÀ¸·Î Á¤·Ä ÈÄ °³¼ö ¼¼´Â ¹®Á¦

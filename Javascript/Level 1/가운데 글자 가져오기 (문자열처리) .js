@@ -1,15 +1,15 @@
-function solution(s) {
-    var answer = '';
+//function solution(s) {
+//    var answer = '';
 
-    if (s.length % 2 === 1) {
-        answer = s[s.length / 2 - 0.5];
-    }
-    else {
-        answer = s[s.length / 2 - 1] + s[s.length / 2];
-    }
+//    if (s.length % 2 === 1) {
+//        answer = s[s.length / 2 - 0.5];
+//    }
+//    else {
+//        answer = s[s.length / 2 - 1] + s[s.length / 2];
+//    }
 
-    return answer;
-}
+//    return answer;
+//}
 
-// https://programmers.co.kr/learn/courses/30/lessons/12903?language=javascript
-// ë¬¸ìì—´ ê¸¸ì´ì— ë”°ë¼ ë¬¸ìì—´ì˜ ì¤‘ê°„ ê¸€ì ë°˜í™˜ í•˜ëŠ” ë¬¸ì œ
+//// https://programmers.co.kr/learn/courses/30/lessons/12903?language=javascript
+//// ¹®ÀÚ¿­ ±æÀÌ¿¡ µû¶ó ¹®ÀÚ¿­ÀÇ Áß°£ ±ÛÀÚ ¹İÈ¯ ÇÏ´Â ¹®Á¦

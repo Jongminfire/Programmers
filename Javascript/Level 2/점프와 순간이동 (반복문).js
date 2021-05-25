@@ -1,18 +1,18 @@
-function solution(n) {
-    var ans = 0;
-    var num = n;
+//function solution(n) {
+//    var ans = 0;
+//    var num = n;
 
-    while (num != 0) {
-        if (num % 2 === 0)
-            num /= 2;
-        else {
-            num--;
-            ans++;
-        }
-    }
+//    while (num != 0) {
+//        if (num % 2 === 0)
+//            num /= 2;
+//        else {
+//            num--;
+//            ans++;
+//        }
+//    }
 
-    return ans;
-}
+//    return ans;
+//}
 
-// https://programmers.co.kr/learn/courses/30/lessons/12980?language=javascript
-// ë°˜ë³µë¬¸ìœ¼ë¡œ 2ë¡œ ë‚˜ëˆ„ì–´ì§€ëŠ” ìˆ˜ì˜ ê°œìˆ˜ êµ¬í•˜ê¸°
+//// https://programmers.co.kr/learn/courses/30/lessons/12980?language=javascript
+//// ¹İº¹¹®À¸·Î 2·Î ³ª´©¾îÁö´Â ¼öÀÇ °³¼ö ±¸ÇÏ±â

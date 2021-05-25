@@ -1,25 +1,25 @@
-function solution(s) {
-    var answer = '';
-    var arr = [];
+//function solution(s) {
+//    var answer = '';
+//    var arr = [];
 
-    for (var i = 0; i < s.length; i++) {
-        arr.push(s[i]);
-    }
+//    for (var i = 0; i < s.length; i++) {
+//        arr.push(s[i]);
+//    }
 
-    arr.sort(sortReverse);
+//    arr.sort(sortReverse);
 
-    for (var i = 0; i < arr.length; i++) {
-        answer += arr[i];
-    }
+//    for (var i = 0; i < arr.length; i++) {
+//        answer += arr[i];
+//    }
 
-    return answer;
-}
+//    return answer;
+//}
 
-function sortReverse(a, b) {
-    if (a > b) return -1;
-    else if (b > a) return 1;
-    else return 0;
-}
+//function sortReverse(a, b) {
+//    if (a > b) return -1;
+//    else if (b > a) return 1;
+//    else return 0;
+//}
 
-// https://programmers.co.kr/learn/courses/30/lessons/12917?language=javascript
-// ì •ë ¬ í•¨ìˆ˜ ì •ì˜í•´ì„œ ë¬¸ìì—´ ë‚´ë¦¼ì°¨ìˆœìœ¼ë¡œ ì •ë ¬í•˜ëŠ” ë¬¸ì œ
+//// https://programmers.co.kr/learn/courses/30/lessons/12917?language=javascript
+//// Á¤·Ä ÇÔ¼ö Á¤ÀÇÇØ¼­ ¹®ÀÚ¿­ ³»¸²Â÷¼øÀ¸·Î Á¤·ÄÇÏ´Â ¹®Á¦

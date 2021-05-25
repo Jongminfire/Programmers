@@ -1,21 +1,21 @@
-function solution(arr, divisor) {
-    var answer = [];
+//function solution(arr, divisor) {
+//    var answer = [];
 
-    for (var i = 0; i < arr.length; i++) {
-        if (arr[i] % divisor === 0) {
-            answer.push(arr[i]);
-        }
-    }
+//    for (var i = 0; i < arr.length; i++) {
+//        if (arr[i] % divisor === 0) {
+//            answer.push(arr[i]);
+//        }
+//    }
 
-    answer.sort(function (a, b) {           // ì˜¤ë¦„ì°¨ìˆœ ì •ë ¬
-        return a - b;
-    });
+//    answer.sort(function (a, b) {           // ¿À¸§Â÷¼ø Á¤·Ä
+//        return a - b;
+//    });
 
-    if (answer.length === 0)
-        answer.push(-1);
+//    if (answer.length === 0)
+//        answer.push(-1);
 
-    return answer;
-}
+//    return answer;
+//}
 
-// https://programmers.co.kr/learn/courses/30/lessons/12910?language=javascript
-// ë°°ì—´ ì˜¤ë¦„ì°¨ìˆœ ì •ë ¬ì„ í™œìš©í•œ ë¬¸ì œ
+//// https://programmers.co.kr/learn/courses/30/lessons/12910?language=javascript
+//// ¹è¿­ ¿À¸§Â÷¼ø Á¤·ÄÀ» È°¿ëÇÑ ¹®Á¦

@@ -15,4 +15,4 @@ function solution(a, b) {
 }
 
 // https://programmers.co.kr/learn/courses/30/lessons/12912?language=javascript
-// ë‘ ì •ìˆ˜ ìŠ¤ì™‘ í›„ ì‚¬ì´ ê°’ì„ ë”í•´ì£¼ëŠ” ë¬¸ì œ
+// µÎ Á¤¼ö ½º¿Ò ÈÄ »çÀÌ °ªÀ» ´õÇØÁÖ´Â ¹®Á¦

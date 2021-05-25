@@ -1,23 +1,23 @@
-function solution(s) {
-    var answer = true;
-    var count_p = 0;
-    var count_y = 0;
+//function solution(s) {
+//    var answer = true;
+//    var count_p = 0;
+//    var count_y = 0;
 
-    for (var i = 0; i < s.length; i++) {
-        if (s[i] === 'p' || s[i] === 'P')
-            count_p++;
+//    for (var i = 0; i < s.length; i++) {
+//        if (s[i] === 'p' || s[i] === 'P')
+//            count_p++;
 
-        else if (s[i] === 'y' || s[i] === 'Y')
-            count_y++;
-    }
+//        else if (s[i] === 'y' || s[i] === 'Y')
+//            count_y++;
+//    }
 
-    if (count_p === count_y)
-        answer = true;
-    else
-        answer = false;
+//    if (count_p === count_y)
+//        answer = true;
+//    else
+//        answer = false;
 
-    return answer;
-}
+//    return answer;
+//}
 
-// https://programmers.co.kr/learn/courses/30/lessons/12916?language=javascript
-// ë°˜ë³µë¬¸ìœ¼ë¡œ ë¬¸ìžì—´ pì™€ yì˜ ê°œìˆ˜ë¥¼ ì„¸ëŠ” ë¬¸ì œ
+//// https://programmers.co.kr/learn/courses/30/lessons/12916?language=javascript
+//// ¹Ýº¹¹®À¸·Î ¹®ÀÚ¿­ p¿Í yÀÇ °³¼ö¸¦ ¼¼´Â ¹®Á¦

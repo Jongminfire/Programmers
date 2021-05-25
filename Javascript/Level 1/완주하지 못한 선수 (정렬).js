@@ -1,18 +1,18 @@
-function solution(participant, completion) {
-    var answer = '';
+//function solution(participant, completion) {
+//    var answer = '';
 
-    participant.sort();
-    completion.sort();
+//    participant.sort();
+//    completion.sort();
 
-    for (var i = 0; i < participant.length; i++) {
-        if (participant[i] !== completion[i]) {
-            answer = participant[i];
-            return answer;
-        }
-    }
+//    for (var i = 0; i < participant.length; i++) {
+//        if (participant[i] !== completion[i]) {
+//            answer = participant[i];
+//            return answer;
+//        }
+//    }
 
-    return answer;
-}
+//    return answer;
+//}
 
-// https://programmers.co.kr/learn/courses/30/lessons/42576?language=javascript
-// ì •ë ¬ í›„ ë‹¤ë¥¸ ê°’ ì°¾ê¸°
+//// https://programmers.co.kr/learn/courses/30/lessons/42576?language=javascript
+//// Á¤·Ä ÈÄ ´Ù¸¥ °ª Ã£±â

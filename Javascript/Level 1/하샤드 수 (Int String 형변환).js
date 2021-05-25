@@ -1,18 +1,18 @@
-function solution(x) {
-    let sum = 0;
-    let string = string(x);
+//function solution(x) {
+//    let sum = 0;
+//    let string = string(x);
 
-    for (let i = 0; i < string.length; i++) {
-        sum += number(string[i]);
-    }
+//    for (let i = 0; i < string.length; i++) {
+//        sum += number(string[i]);
+//    }
 
-    if (x % sum) {
-        return false;
-    }
-    else {
-        return true;
-    }
-}
+//    if (x % sum) {
+//        return false;
+//    }
+//    else {
+//        return true;
+//    }
+//}
 
-// https://programmers.co.kr/learn/courses/30/lessons/12947
-// intì™€ string í˜• ë³€í™˜
+//// https://programmers.co.kr/learn/courses/30/lessons/12947
+//// int¿Í string Çü º¯È¯
