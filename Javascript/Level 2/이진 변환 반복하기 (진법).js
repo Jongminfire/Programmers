@@ -1,30 +1,17 @@
-function solution(enter, leave) {
-	let answer = new Array(enter.length).fill(0);
-	let dic = {};
-	let room = [enter.shift()];
+function solution(s) {
+	let ans = [0, 0];
 
-	for (let i = 1; i <= enter.length + 1; i++) {
-		dic[i] = new Set();
-	}
-
-	while (enter.length > 0 && leave.length > 0) {
-		while (room.indexOf(leave[0]) === -1) {
-			room.push(enter.shift());
+	while (s !== "1") {
+		while (s.indexOf("0") !== -1) {
+			s = s.replace("0", "");
+			ans[1] += 1;
 		}
 
-		room.forEach((v) => {
-			room.forEach((v2) => {
-				dic[v].add(v2);
-			});
-		});
+		let temp = s.length;
+		s = temp.toString(2);
 
-		room.splice(room.indexOf(leave[0]), 1);
-		leave.shift();
+		ans[0] += 1;
 	}
 
-	console.log(dic);
-
-	return answer;
+	return ans;
 }
-
-console.log(solution([1, 3, 2], [1, 2, 3]));
