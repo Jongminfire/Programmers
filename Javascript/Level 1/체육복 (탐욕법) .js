@@ -1,75 +1,22 @@
 function solution(n, lost, reserve) {
-    var answer = 0;
-    var arr = new Array(n);
-    var sum = 0;
+	let arr = new Array(n + 1).fill(true);
+	let res = new Set(reserve.sort());
+	let answer = 0;
 
-    for (let i = 0; i < n; i++) {
-        arr[i] = 1;
-    }
+	lost.sort();
+	lost.forEach((v) => (arr[v] = false));
 
-    // var arr = Array(n).fill(1); 로 대체 가능 (ES6 문법)
+	res.forEach((v) => {
+		if (!arr[v]) {
+			arr[v] = true;
+		} else if (!arr[v - 1] && v - 1 > 0 && !res.has(v - 1)) {
+			arr[v - 1] = true;
+		} else if (!arr[v + 1] && v + 1 <= n && !res.has(v + 1)) {
+			arr[v + 1] = true;
+		}
+	});
 
-    /* lost reserve */
-
-    for (let j = 0; j < lost.length; j++) {
-        arr[lost[j] - 1]--;
-    }
-
-    for (let r = 0; r < reserve.length; r++) {
-        arr[reserve[r] - 1]++;
-    }
-
-    /*
-
-    lost.forEach(number => students[number]-=1);
-    reserve.forEach(number => students[number]+=1);
-
-    // 로 표현 가능하다.
-
-    */
-
-    for (let i = 0; i < n; i++) {
-        if (arr[i] === 0) {
-            if (i > 0) {
-                if (arr[i - 1] === 2) {
-                    arr[i - 1] = 1;
-                    arr[i] = 1;
-                    continue;
-                }
-                else if (arr[i + 1] === 2) {
-                    arr[i + 1] = 1;
-                    arr[i] = 1;
-                }
-            }
-            else if (i === 0) {
-                if (arr[i + 1] === 2) {
-                    arr[i + 1] = 1;
-                    arr[i] = 1;
-                }
-            }
-            else if (i === n - 1) {
-                if (arr[i - 1] === 2) {
-                    arr[i - 1] = 1;
-                    arr[i] = 1;
-                }
-            }
-        }
-    }
-
-    for (let i = 0; i < n; i++) {
-        if (arr[i] > 0) {
-            sum++;
-        }
-    }
-
-    if (sum >= n) {
-        sum = n;
-    }
-
-    return sum;
+	return arr.filter((v) => v).length - 1;
 }
 
-// https://programmers.co.kr/learn/courses/30/lessons/42862?language=javascript
-// 완전탐색을 활용한 탐욕법 문제
-
-// * 하드코딩이므로 다른 사람 풀이 참고해서 보완해야 할 것 같다.
+// 기존 하드코딩 풀이 고차함수 활용해서 다시 풀었음
